@@ -1,0 +1,313 @@
+body {
+  background-color: rgb(8, 12, 42);
+  display: flex;
+  flex-direction: column;
+}
+
+.head-tab {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 50px;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  width: 200px;
+  gap: 8px;
+}
+.img-1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 90px;
+}
+.logo h1 {
+  font-size: 15px;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  text-decoration: line-through;
+  color: rgb(226, 245, 245);
+}
+.head-tab ul {
+  display: flex;
+  color: rgb(22, 179, 41);
+  gap: 50px;
+}
+.head-tab ul div {
+  border: 1px solid;
+  border-color: rgb(22, 179, 41);
+  border-radius: 10px;
+  padding: 10px 0px 10px 10px;
+  background-color: rgb(8, 12, 42);
+  width: 100px;
+  height: 20px;
+}
+#slct {
+  border: none;
+  color: rgb(22, 179, 41);
+  background-color: rgb(8, 12, 42);
+}
+.backbox {
+  display: flex;
+  border-radius: 25px;
+  justify-content: center;
+  background-image: url(image/body\ bg.jpg);
+}
+.backbox-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(39, 18, 109, 0.8);
+}
+.cardbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 10px 12px;
+  background-image: url(image/cardbox\ bg.avif);
+  color: white;
+  width: 300px;
+  height: 400px;
+}
+.cardbox-div {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 5px;
+  padding: 5px 0 0 0;
+  border-radius: 5px;
+  justify-content: center;
+  background-color: rgba(22, 179, 41, 0.4);
+  gap: 5px;
+}
+#quoteframe {
+  color: white;
+}
+.img-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#img-2 img {
+  margin: 1px;
+  border-radius: 5px;
+  width: 90px;
+  height: 70px;
+}
+#img-2 p {
+  font-size: 105x;
+  font-style: oblique;
+  color: white;
+}
+.cardboxx {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-image: url(image/cardbox\ bg.avif);
+  padding: 10px 12px;
+  background-color: gainsboro;
+  width: 300px;
+  height: 400px;
+}
+#getstarted {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 320px;
+  border-radius: 10px;
+  background-color: rgba(22, 179, 41, 0.4);
+  gap: 5px;
+}
+#gts {
+  color: white;
+  font-family: "Rubik Pixels", cursive;
+  font-size: larger;
+  text-align: center;
+}
+p {
+  color: black;
+  text-align: center;
+  font-size: small;
+}
+.form1 {
+  font-weight: bold;
+  width: 230px;
+  margin: 0 35px 20px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  border: ridge;
+  background-color: none;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+}
+#btn {
+  font-weight: bold;
+  width: 230px;
+  margin: 0 35px 20px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  border: ridge;
+  background-color: rgb(8, 12, 42);
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: aliceblue;
+}
+#login {
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: medium;
+  background-color: rgb(8, 12, 42);
+  color: white;
+}
+.down-sctn {
+  background-image: url(image/down-sctn\ bg.jpg);
+}
+.down-sctn div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.down-sctn div div {
+  display: flex;
+  flex-direction: row;
+}
+.down-sctn h2 {
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  border-radius: 6px;
+  box-shadow: 0 4px rgb(22, 179, 41);
+  padding: 10px;
+  width: 200px;
+  font-family: "Zilla Slab", serif;
+  color: rgb(8, 12, 42);
+}
+.users {
+  margin: 20px;
+  padding: 10px 10px;
+  gap: 20px;
+}
+#img-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px dotted rgba(22, 179, 41, 0.25);
+  padding: 5px 0;
+  width: 150px;
+}
+#img-3 img {
+  width: 100px;
+  margin-bottom: -10px;
+  border-radius: 50px;
+}
+#img-3 h3 {
+  margin-top: 10px;
+  font-size: larger;
+  text-decoration: wavy;
+  color: wheat;
+}
+#img-3 a {
+  margin-top: -10px;
+  border: 1px dotted rgb(82, 232, 82);
+  border-radius: 2px;
+  padding: 3px 5px;
+  color: rgb(234, 205, 152);
+  font-family: "Roboto Mono", monospace;
+  font-size: 15px;
+  text-decoration: none;
+}
+.down-sctn button {
+  background-color: #fff;
+  border: 1px solid #c7c7c7;
+  border-radius: 6px;
+  box-shadow: 0 4px rgb(22, 179, 41);
+  padding: 10px 20px;
+  width: 200px;
+  font-family: "Zilla Slab", serif;
+  font-size: larger;
+  color: rgb(8, 12, 42);
+}
+.info-section {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 160px;
+  margin-right: 20px;
+  margin-left: 20px;
+  border-bottom: 1px solid white;
+  padding: 20px 40px 20px 20px;
+  gap: 25px;
+}
+.info-list {
+  display: flex;
+  flex-direction: column;
+  font-family: "Lato", sans-serif;
+  gap: 10px;
+}
+.info-list h1 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.5rem;
+  margin-bottom: 0.9rem !important;
+  color: rgb(22, 179, 41);
+}
+.info-list a {
+  display: block;
+  color: aliceblue;
+  text-decoration: none !important;
+}
+.logo2 {
+  display: flex;
+
+  justify-content: center;
+  padding: 20px 10px;
+  width: 200px;
+  gap: 8px;
+}
+.img-22 {
+  width: 200px;
+}
+.contact-section {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 20px;
+}
+.leftbar {
+  display: flex;
+  gap: 20px;
+}
+#smlink {
+  width: 40px;
+}
+.rightbar {
+  display: flex;
+  align-items: baseline;
+  color: #fff;
+  gap: 15px;
+}
+.rightbar button {
+  font-weight: bold;
+  margin: 0 35px 20px;
+  padding: 6px 15px;
+  border-radius: 5px;
+  border: ridge;
+  background-color: rgb(8, 12, 42);
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: aliceblue;
+}
+.rightbar h5 {
+}
