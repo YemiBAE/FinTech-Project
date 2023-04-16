@@ -1,0 +1,159 @@
+body {
+  background-color: rgb(8, 12, 42);
+}
+.head-tab {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 20px 50px;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10px;
+  width: 200px;
+  gap: 8px;
+}
+.img-1 {
+  width: 50px;
+  height: 50px;
+  border-radius: 90px;
+}
+.logo h1 {
+  font-size: 15px;
+  font-family: "Edu NSW ACT Foundation", cursive;
+  text-decoration: line-through;
+  color: rgb(226, 245, 245);
+}
+.head-tab ul {
+  display: flex;
+  color: rgb(22, 179, 41);
+  gap: 50px;
+}
+.head-tab ul div {
+  border: 1px solid;
+  border-color: rgb(22, 179, 41);
+  border-radius: 10px;
+  padding: 8px 10px;
+  background-color: rgb(8, 12, 42);
+}
+#slct {
+  border: none;
+  color: rgb(22, 179, 41);
+  background-color: rgb(8, 12, 42);
+}
+.backbox {
+  display: flex;
+  border-radius: 25px;
+  justify-content: center;
+  background-image: url(https://thedesignblitz.com/wp-content/uploads/design-in-fintech.jpg);
+}
+.backbox-div {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(39, 18, 109, 0.8);
+}
+.cardbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  padding: 10px 12px;
+  background-image: url(https://images.unsplash.com/photo-1523759724146-4ce060fff7be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80);
+  color: white;
+  width: 300px;
+  height: 400px;
+}
+.cardbox-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: rgba(22, 179, 41, 0.4);
+  gap: 5px;
+}
+#quoteframe {
+  text-decoration: dashed;
+  text-decoration-color: aquamarine;
+}
+.img-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#img-2 img {
+  margin: 1px;
+  border-radius: 5px;
+  width: 90px;
+  height: 70px;
+}
+#img-2 p {
+  font-size: small;
+  color: white;
+}
+.cardboxx {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  background-image: url();
+  padding: 10px 12px;
+  background-color: gainsboro;
+  width: 300px;
+  height: 400px;
+}
+#getstarted {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 320px;
+  border-radius: 10px;
+  background-color: rgba(22, 179, 41);
+  gap: 5px;
+}
+#gts {
+  color: black;
+  font-size: medium;
+  text-align: center;
+}
+p {
+  color: black;
+  text-align: center;
+  font-size: small;
+}
+.form1 {
+  font-weight: bold;
+  width: 230px;
+  margin: 0 35px 20px;
+  padding: 6px 15px;
+  border-radius: 15px;
+  border: ridge;
+  background-color: none;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+}
+#btn {
+  font-weight: bold;
+  width: 230px;
+  margin: 0 35px 20px;
+  padding: 6px 15px;
+  border-radius: 15px;
+  border: ridge;
+  background-color: rgb(8, 12, 42);
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: aliceblue;
+}
+#login {
+  text-align: center;
+  font-size: medium;
+}
